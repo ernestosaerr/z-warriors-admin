@@ -1,0 +1,35 @@
+.login-container {
+  min-height: 100vh;          
+  display: flex;
+  justify-content: center;    
+  align-items: center;        
+}
+
+.login-card {
+  width: 360px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.login-input {
+  width: 100%;
+}
+
+.p-password,
+.p-password input {
+  width: 100%;
+}
+
+.login-button {
+  width: 100%;
+}
+
+.login-error {
+  color: red;
+  font-size: 0.85rem;
+  text-align: center;
+}
